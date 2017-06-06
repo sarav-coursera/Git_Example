@@ -1,0 +1,36 @@
+root_dir_aix = /sasdata_dev/
+CFDB_root_aix = /home/sasprod/
+
+starting_env_aix = LF HF
+
+mck_lib_aix = /sasdata_dev/SARAV/Data
+
+cpat_lib_aix = /sasdata_prod/SAS/LF/A
+cpat_rt_lib_aix = /sasdata_prod/SAS/LF/A_RT
+
+extract_lib_aix = &root_dir.XFL/LF/Q
+
+extract_user =	spint_t
+extract_pass =	SPINT_T
+extract_path =	cpat_cpa.world
+
+upload_user =	sas_user
+upload_pass =	sas_user4pr0d
+upload_path =	cpat_cpa.world
+
+firstvalidyear = 1962
+lastvalidyear = 2015
+
+alpha_table = Y
+output_alpha = all_companies_augmented_alpha
+asfx = a05SEP
+
+beta_table = Y
+output_beta = all_companies_augmented_beta
+bsfx = b05SEP
+
+last_mth_aug = all_companies_augment_b05aug10
+last_mth_sfx = JUL
+ 
+l2l_mth_aug = all_companies_augment_b05jul10
+l2l_mth_sfx = JUN
