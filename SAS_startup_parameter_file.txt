@@ -19,7 +19,7 @@ upload_pass =	sas_user4pr0d
 upload_path =	cpat_cpa.world
 
 firstvalidyear = 1962
-lastvalidyear = 2015
+lastvalidyear = 2017
 
 alpha_table = Y
 output_alpha = all_companies_augmented_alpha
